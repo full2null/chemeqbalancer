@@ -1,10 +1,11 @@
 [project]
 name = "chemeqbalancer"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "Balance chemical equations using linear algebra."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "streamlit>=1.45.1",
+    "numpy>=2.3.3",
+    "streamlit>=1.50.0",
     "sympy>=1.14.0",
 ]

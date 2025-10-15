@@ -113,4 +113,9 @@ def main():
 
 
 if __name__ == "__main__":
+    st.set_page_config(
+        page_title="화학 반응식 균형 맞추기",
+        page_icon=":1234:",
+    )
+
     main()
